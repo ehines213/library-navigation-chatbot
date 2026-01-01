@@ -1,0 +1,78 @@
+#lnc-chatbot-button {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  padding: 12px 14px;
+  border-radius: 999px;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+  z-index: 99999;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
+}
+
+#lnc-chatbot-panel {
+  position: fixed;
+  right: 18px;
+  bottom: 70px;
+  width: 360px;
+  max-width: calc(100vw - 36px);
+  height: 460px;
+  max-height: calc(100vh - 120px);
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 12px;
+  display: none;
+  flex-direction: column;
+  z-index: 99999;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
+}
+
+#lnc-chatbot-header {
+  padding: 10px 12px;
+  border-bottom: 1px solid #eee;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#lnc-chatbot-messages {
+  padding: 10px 12px;
+  overflow: auto;
+  flex: 1;
+  font-size: 14px;
+}
+
+.lnc-msg {
+  margin: 10px 0;
+  line-height: 1.35;
+}
+
+.lnc-msg .role {
+  font-weight: 700;
+  margin-right: 6px;
+}
+
+#lnc-chatbot-form {
+  border-top: 1px solid #eee;
+  display: flex;
+  gap: 8px;
+  padding: 10px 12px;
+}
+
+#lnc-chatbot-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+#lnc-chatbot-send {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+}
+
